@@ -1,0 +1,17 @@
+<!-- extend from base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+
+
+	<h1>Sign In</h1>
+	<form action="" method="post" name="login">
+		{{form.hidden_tag()}}
+	
+	
+		<p>{{form.remember_me}} Remember Me</p>
+		<p>{{form.facebook_login}}</p>
+		<p>{{form.google_login}}</p>
+	</form>
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+{% endblock %}

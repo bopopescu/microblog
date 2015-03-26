@@ -1,0 +1,28 @@
+<html>
+<meta name="365264030410-q8cgtdsl5652shd2koqtvn5jnf8glvgn" content="365264030410-q8cgtdsl5652shd2koqtvn5jnf8glvgn.apps.googleusercontent.com">
+	<head>
+		{% if title %}
+		<title>{{ title }}-microblog</title>
+		{% else %}
+		<title> Welcome to microblog </title>
+		{% endif %}
+	</head>
+	<body>
+		<div>Microblog:<a href="/index">Home</a>
+			{% if g.user.is_authenticated() %}
+			| <a href="{{ url_for('logout') }}">logout</a>
+			{% endif %}
+		</div>
+		<hr>
+		{% with messages = get_flashed_messages() %}
+		  {% if messages %}
+		   <ul>
+			   {% for message in messages %}
+			   <li>{{message}}</li>
+			   {% endfor %}
+		   </ul>
+		   {% endif %}
+		{% endwith %}
+		{% block content %}{% endblock %}
+	</body>
+</html>	
