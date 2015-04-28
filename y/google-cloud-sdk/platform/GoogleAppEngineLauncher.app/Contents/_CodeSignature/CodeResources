@@ -372,7 +372,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wL5btS7hWO8owkg0uSWvFWjXt78=
+			1futkGd0Cc0/IfxyTDcTgxnaVP4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -388,7 +388,7 @@
 		</dict>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Info.plist</key>
 		<data>
-		uJ9yhLcjfmXLNXnaWvdVpWXSiD8=
+		l16WUWTwWxE2E7yR8UKrlpbIgcQ=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Resources/LICENSE</key>
 		<data>
@@ -396,7 +396,7 @@
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine.zip</key>
 		<data>
-		gjtkAiQbNURQuiCuhupXgZeZW0w=
+		Kgt8KGhYoPl+VhkvbJwOR5OWH0o=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Resources/packagemanager.py</key>
 		<data>
@@ -460,7 +460,7 @@
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeDirectory</key>
 		<data>
-		oDu09M6a+EbjBD/kuLwI5AAP8Xw=
+		VqUYUXXxOna3VP1UatLrfWi4CZo=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -468,11 +468,11 @@
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		ETP0C4sZClPCG8YM9tj4Mzu/c1M=
+		V/B+b4tYXvmdW4kgXtd17raK2mo=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeSignature</key>
 		<data>
-		mW3el+F8RRlBwWbrzACf8RTWIUY=
+		0UL+NbgTq/EQ2aDhez4ZNgUqeo8=
 		</data>
 		<key>Resources/GoogleAppEngineLauncher.icns</key>
 		<data>
@@ -930,7 +930,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wL5btS7hWO8owkg0uSWvFWjXt78=
+			1futkGd0Cc0/IfxyTDcTgxnaVP4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -946,7 +946,7 @@
 		</dict>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Info.plist</key>
 		<data>
-		uJ9yhLcjfmXLNXnaWvdVpWXSiD8=
+		l16WUWTwWxE2E7yR8UKrlpbIgcQ=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Resources/LICENSE</key>
 		<data>
@@ -954,7 +954,7 @@
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Resources/google_appengine.zip</key>
 		<data>
-		gjtkAiQbNURQuiCuhupXgZeZW0w=
+		Kgt8KGhYoPl+VhkvbJwOR5OWH0o=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/Resources/packagemanager.py</key>
 		<data>
@@ -1018,7 +1018,7 @@
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeDirectory</key>
 		<data>
-		oDu09M6a+EbjBD/kuLwI5AAP8Xw=
+		VqUYUXXxOna3VP1UatLrfWi4CZo=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -1026,11 +1026,11 @@
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeResources</key>
 		<data>
-		ETP0C4sZClPCG8YM9tj4Mzu/c1M=
+		V/B+b4tYXvmdW4kgXtd17raK2mo=
 		</data>
 		<key>Resources/GoogleAppEngine-default.bundle/Contents/_CodeSignature/CodeSignature</key>
 		<data>
-		mW3el+F8RRlBwWbrzACf8RTWIUY=
+		0UL+NbgTq/EQ2aDhez4ZNgUqeo8=
 		</data>
 		<key>Resources/GoogleAppEngineLauncher.icns</key>
 		<data>

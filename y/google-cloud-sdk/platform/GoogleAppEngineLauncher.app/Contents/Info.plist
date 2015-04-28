@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>GoogleAppEngineLauncher</string>
 	<key>CFBundleGetInfoString</key>
-	<string>GoogleAppEngineLauncher 1.9.18.189, © 2005-2015 Google Inc.</string>
+	<string>GoogleAppEngineLauncher 1.9.19.229, © 2005-2015 Google Inc.</string>
 	<key>CFBundleHelpBookFolder</key>
 	<string>GoogleAppEngineLauncher Help</string>
 	<key>CFBundleHelpBookName</key>
@@ -27,11 +27,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.9.18</string>
+	<string>1.9.19</string>
 	<key>CFBundleSignature</key>
 	<string>MhbK</string>
 	<key>CFBundleVersion</key>
-	<string>1.9.18.189</string>
+	<string>1.9.19.229</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -47,7 +47,7 @@
 	<key>DTXcodeBuild</key>
 	<string>6A1052d</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>GoogleAppEngineLauncher 1.9.18.189, © 2005-2015 Google Inc.</string>
+	<string>GoogleAppEngineLauncher 1.9.19.229, © 2005-2015 Google Inc.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

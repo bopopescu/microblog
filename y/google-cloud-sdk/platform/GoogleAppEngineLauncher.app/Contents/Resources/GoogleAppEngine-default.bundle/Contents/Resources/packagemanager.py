@@ -169,7 +169,7 @@ def main():
     #             ArchivePackage('Django-*.tar.gz', None),
     #             EggPackage('WebOb-*.egg'),
     #             GAEArchivePackage('dev_appserver.zip', None)]
-    packages = []
+    packages = [ArchivePackage('google_appengine.zip', None)]
   except Package.Problem, inst:
     print 'Cannot create package for ' + inst.file
     sys.exit(2)

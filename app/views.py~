@@ -25,6 +25,21 @@ def index():
 def before_request():
 	g.user=current_user
 
+@app.route('/user/<nickname>')
+@login_required
+def user(nickname):
+    user = User.query.filter_by(nickname=nickname).first()
+    if user == None:
+        flash('User %s not found.'% nickname)
+        return redirect(url_for('index'))
+    posts= [
+        {'author':user, 'body':'Test post#1'},
+        {'author':user,'body':'Test post#2'}
+    ]
+    return render_template('user.html',
+                            user=user,
+                            posts=posts)
+
 @app.route('/login',methods=['GET','POST'])
 @oid.loginhandler
 def login():
@@ -37,8 +52,7 @@ def login():
 		if "facebook_login" in request.form:
 			print request.form
 			return facebook.authorize(callback=url_for('facebook_authorized',
-				        next=request.args.get('next') or request.referrer or None,
-					        _external=True))
+				        next=request.args.get('next') or request.referrer or None,_external=True))
 	return render_template('login.html',
 				titile='Sign In'
 				,form=form,
@@ -53,9 +67,14 @@ def facebook_authorized(resp):
 	session['oauth_token']=(resp['access_token'],'')
 	me = facebook.get('/me')
 	email=me.data['email']
-	print email
-	name=me.data['name']
+	name=me.data['email'].split('@')[0]
 	user=User.query.filter_by(email=email).first()
+	if user.nickname is not name:
+		print "nickname is"+user.nickname+"name is"+name
+		db.session.query(User).filter(User.email==email).\
+				update({User.nickname:name},synchronize_session=False)
+		print "not same"
+		db.session.commit()
 	if user is None:
 		user=User(nickname=name,email=email)
 		db.session.add(user)
